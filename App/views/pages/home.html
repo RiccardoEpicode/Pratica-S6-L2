@@ -84,8 +84,24 @@
 
     <!-- SALDI -->
 
-    <div class="container mb-5">
+    <div
+      class="container col-12 d-flex justify-content-between align-items-center"
+    >
       <h2 class="mb-4">On Sale</h2>
+      <!-- Button -->
+      <button
+        class="btn"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target=".toggle-section1"
+        aria-expanded="false"
+        aria-controls="onSale welcomeSummer"
+      >
+        Hide On Sale
+      </button>
+    </div>
+
+    <div id="onSale" class="container mb-5 collapse toggle-section1 show">
       <div class="row g-4">
         <div class="col-6 col-sm-6 col-md-4 col-lg-3">
           <div class="card h-100">
@@ -150,8 +166,27 @@
 
     <!-- WELCOME SUMMER -->
 
-    <div class="container mb-5">
+    <div
+      class="container col-12 d-flex justify-content-between align-items-center"
+    >
       <h2 class="mb-4">Welcome Summer</h2>
+      <!-- Button -->
+      <button
+        class="btn"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target=".toggle-section2"
+        aria-expanded="false"
+        aria-controls="onSale welcomeSummer"
+      >
+        Hide Welcome Summer
+      </button>
+    </div>
+
+    <div
+      id="welcomeSummer"
+      class="container mb-5 collapse toggle-section2 show"
+    >
       <div class="row g-4">
         <div class="col-6 col-md-6 col-lg-4">
           <div class="card h-100 position-relative">
